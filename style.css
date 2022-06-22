@@ -619,6 +619,10 @@ textarea {
 --------------------------------------------------------------*/
 /* Navigation
 --------------------------------------------- */
+* {
+  scroll-behavior: smooth;
+}
+
 .site-header {
   height: 60px;
   width: 100%;
@@ -723,15 +727,76 @@ textarea {
   flex: 1 0 50%;
 }
 
+/* This is the start of footer  */
+footer {
+  width: 100%;
+  height: 200px;
+  background-color: #ba7af1;
+}
+
+.footerBox {
+  width: 30%;
+  height: 200px;
+  float: left;
+  margin: 0px 20px;
+  text-align: center;
+  /* border: 1px solid #000; */
+}
+
+.footerBox ul {
+  list-style-type: none;
+  margin-top: 60px;
+}
+
+.footerBox a {
+  text-decoration: none;
+  color: #000;
+}
+
+.footerBox ul li {
+  font-weight: bolder;
+  text-transform: uppercase;
+  margin: 20px 20px;
+}
+
+.footerBox a:hover {
+  color: darkmagenta;
+}
+
+.footerBox a:active {
+  color: cornflowerblue;
+}
+
+.footerBox p {
+  margin-top: 110px;
+  color: #000;
+}
+
+.socialMedia {
+  margin-top: 100px;
+}
+
+.socialMedia i {
+  margin: 0px 10px;
+}
+
+.socialMedia i {
+  color: #000;
+}
+
+.socialMedia i:hover {
+  color: darkmagenta;
+}
+
+.socialMedia i:active {
+  color: cornflowerblue;
+}
+
+/* This is the end of footer  */
 /* Posts and pages
 --------------------------------------------- */
 .sticky {
   display: block;
-}
-
-.post,
-.page {
-  margin: 0 0 1.5em;
 }
 
 .updated:not(.published) {
@@ -880,6 +945,171 @@ main {
 }
 
 /* This is th end of the banner section */
+.special {
+  height: 80px;
+  width: 100%;
+  background-color: grey;
+  margin-bottom: 10px;
+}
+
+.about {
+  text-align: center;
+  font-size: 40px;
+  color: brown;
+  padding-bottom: 20px;
+}
+
+.aboutvegas {
+  margin: 10px 10px;
+}
+
+.vegasinfo {
+  text-align: center;
+  padding: 30px 30px;
+  font-size: 20px;
+  color: purple;
+}
+
+.info-pic {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.our-specials {
+  height: 70px;
+  width: 100%;
+  background-color: #96b1af;
+}
+
+.special-head {
+  text-align: center;
+  font-size: 40px;
+}
+
+.light-casino {
+  display: flex;
+  background-color: bisque;
+  margin-bottom: 10px;
+}
+
+.light-text {
+  text-align: center;
+}
+
+.light-img {
+  height: 700px;
+  width: 650px;
+  padding-left: 20px;
+}
+
+.about-lights {
+  align-items: center;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-bottom: 10px;
+  font-weight: bolder;
+}
+
+.casino-text {
+  text-align: center;
+}
+
+.casino-img {
+  height: 700px;
+  width: 650px;
+}
+
+.about-casino {
+  align-items: center;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-bottom: 10px;
+  font-weight: bolder;
+}
+
+/*This is the start of the back to top button  */
+.topButton {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  margin: 30px;
+}
+
+.topButton a {
+  padding: 8px 15px;
+  background-color: #000;
+  border: 2px solid #000;
+  border-radius: 50px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.topButton a:hover {
+  background-color: darkmagenta;
+}
+
+.topButton a:active {
+  background-color: cornflowerblue;
+}
+
+/* This is the end of the back to top button */
+.book-flight {
+  height: 200px;
+  width: 100%;
+  background-color: #a51a1a;
+  display: flex;
+  text-align: center;
+}
+
+.contact-banner {
+  font-size: 50px;
+  color: white;
+  padding-left: 80px;
+}
+
+.plane {
+  padding-left: 60px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.plane:hover {
+  transform: scale(1.5);
+}
+
+.main-section {
+  margin: 20px;
+}
+
+.title {
+  text-align: center;
+  padding-top: 50px;
+  margin-bottom: 50px;
+  color: white;
+  font-size: 40px;
+}
+
+.contact-form {
+  margin-left: 300px;
+  margin-right: 300px;
+  margin-top: 10px;
+  background-color: lightslategrey;
+  border: 2px solid black;
+  border-radius: 10px;
+  box-shadow: 5px lightgrey;
+}
+
+label, textarea, input {
+  margin-left: 250px;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+label {
+  color: white;
+}
+
 /* Comments
 --------------------------------------------- */
 .comment-content a {

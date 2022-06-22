@@ -9,8 +9,8 @@
 <!-- This is the start of hero section -->
 <main id="topBtn">
         <div class="hero-text">
-            <h1>Hello World</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <h1><?php the_field('hero_title'); ?></h1>
+            <p><?php the_field('hero_copy_text'); ?></p>
         </div>
     </main>
     <!-- This is the end of hero section --> 
@@ -28,7 +28,7 @@
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis inventore, perspiciatis rerum quisquam nam ex. </p>
         </div>
         <div class="column">
-            <img src="http://travelsite.local/wp-content/uploads/2022/05/pin.png" alt="pink globe icon.">
+            <img src="" alt="pink globe icon.">
             <h2>LAND IN PARADISE</h2>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis inventore, perspiciatis rerum quisquam nam ex. </p>
         </div>
@@ -36,3 +36,5 @@
     <!-- This is the end of icon section -->
     <?php get_template_part('template-parts/info-section') ?>
     <?php get_template_part('template-parts/banner') ?>
+    <?php get_template_part('template-parts/back-top-button') ?>
+    <?php get_footer(); ?>

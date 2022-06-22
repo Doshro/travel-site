@@ -1,0 +1,36 @@
+.main-section{
+        
+        
+    margin: 20px;
+
+
+}
+.title {
+    text-align: center;
+    padding-top: 50px;
+    margin-bottom: 50px;
+    color: white;
+    font-size: 40px;
+}
+
+
+.contact-form {
+    margin-left:300px;
+    margin-right: 300px;
+    margin-top: 10px;
+    background-color: lightslategrey;
+    border: 2px solid black;
+    border-radius: 10px;
+    box-shadow: 5px lightgrey;
+}
+
+label, textarea, input { ;
+    margin-left: 250px; 
+    padding: 20px;
+    border-radius: 10px; 
+
+}
+label {
+    color: white;
+}
+

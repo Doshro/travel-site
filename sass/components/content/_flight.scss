@@ -1,0 +1,24 @@
+.book-flight{
+    height: 200px;
+    width: 100%;
+    background-color: rgb(165, 26, 26);
+    display: flex;
+    text-align: center;
+}
+.contact-banner{
+    font-size: 50px;
+    color: white;
+    padding-left: 80px;
+    
+}
+.plane{
+    padding-left: 60px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.plane:hover{
+    transform: scale(1.5);
+}
+
+
+
