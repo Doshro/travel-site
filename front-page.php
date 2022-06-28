@@ -28,7 +28,7 @@
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis inventore, perspiciatis rerum quisquam nam ex. </p>
         </div>
         <div class="column">
-            <img src="" alt="pink globe icon.">
+            <img src="http://travelsite.local/wp-content/uploads/2022/05/globe.png" alt="pink globe icon.">
             <h2>LAND IN PARADISE</h2>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis inventore, perspiciatis rerum quisquam nam ex. </p>
         </div>
