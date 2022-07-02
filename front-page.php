@@ -18,17 +18,17 @@
     <!-- This is the start of icon section -->
     <section class="row">
         <div class="column">
-            <img src="http://travelsite.local/wp-content/uploads/2022/05/globe.png" alt="pink globe icon.">
+            <img src="http://travelsite.local/wp-content/uploads/2022/06/vhotel.jpg" alt="vegas hotel" height="250px" >
             <h2>CHOOSE YOUR DESTIANTION</h2>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis inventore, perspiciatis rerum quisquam nam ex. </p>
         </div>
         <div class="column">
-            <img src="http://travelsite.local/wp-content/uploads/2022/05/airport.png" alt="pink globe icon.">
+            <img src="http://travelsite.local/wp-content/uploads/2022/06/fly-to-vegas.jpg" alt="pink globe icon." height="250px" >
             <h2>CATCH YOUR FLIGHT</h2>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis inventore, perspiciatis rerum quisquam nam ex. </p>
         </div>
         <div class="column">
-            <img src="http://travelsite.local/wp-content/uploads/2022/05/globe.png" alt="pink globe icon.">
+            <img src="http://travelsite.local/wp-content/uploads/2022/06/vegas-land.jpg" alt="pink globe icon." height="250px"  >
             <h2>LAND IN PARADISE</h2>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis inventore, perspiciatis rerum quisquam nam ex. </p>
         </div>

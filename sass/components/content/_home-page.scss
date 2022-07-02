@@ -3,19 +3,23 @@ main{
     width: 100%;
     height: 500px;
     background-color: blue;
-    background:linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(http://travelsite.local/wp-content/uploads/2022/05/heroimg-scaled.jpg);
+    background:linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(http://travelsite.local/wp-content/uploads/2022/06/vegas-hero.webp);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     
 }
 .hero-text{
-    color: #fff;
+    font-size: 30px;
+    // color: #fff;
+    color: yellowgreen;
     text-align: center;
     position: absolute;
     top: 30%;
     left: 50%;
     transform: translate(-50%, -50%);
+    
+    
 }
 /* This is the end of hero section  */
 
@@ -25,7 +29,7 @@ main{
 }
 .column{
     width: 33.33%;
-    height: 300px;
+    // height: 300px;
     float: left;
     text-align: center;
     padding:35px 10px;
